@@ -4,7 +4,7 @@ import sqlite3
 # Function to establish connection with SQLite database
 def connect_to_database():
     try:
-        conn = sqlite3.connect('DIABETESPREDICTOR/diabetes.db')
+        conn = sqlite3.connect('DIABETESPREDICTOR/diabetesgit.db')
         return conn
     except sqlite3.Error as e:
         st.error(f"Error connecting to SQLite database: {e}")
