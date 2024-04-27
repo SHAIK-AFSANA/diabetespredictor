@@ -3,7 +3,7 @@ import streamlit as st
 import re
 
 def get_connection():
-    return sqlite3.connect('diabetesgit.db')
+    return sqlite3.connect('DIABETESPREDICTOR/diabetesgit.db')
 
 def create_account(name, email, password):
     conn = get_connection()
