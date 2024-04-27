@@ -12,14 +12,13 @@ from reportlab.lib.styles import ParagraphStyle
 import re
 
 # Establish connection to SQLite database
-conn = sqlite3.connect('DIABETESPREDICTOR/diabetes.db')
-cursor = conn.cursor()
+
 
 # Function to fetch patient data for the logged-in user
 def fetch_patient_data(patient_id):
     try:
         # Open connection and create cursor within a context manager
-        with sqlite3.connect('DIABETESPREDICTOR/diabetes.db') as conn:
+        with sqlite3.connect('DIABETESPREDICTOR/diabetesgit.db') as conn:
             cursor = conn.cursor()
             
             # Define SQL query to fetch patient data
