@@ -12,7 +12,7 @@ from reportlab.lib.styles import ParagraphStyle
 import re
 
 # Establish connection to SQLite database
-conn = sqlite3.connect('diabetes.db')
+conn = sqlite3.connect('DIABETESPREDICTOR/diabetes.db')
 cursor = conn.cursor()
 
 # Function to fetch patient data for the logged-in user
