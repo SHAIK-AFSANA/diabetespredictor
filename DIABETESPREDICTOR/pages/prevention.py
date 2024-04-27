@@ -24,7 +24,7 @@ def app():
             st.write(description)
     # Display the image in the other column
     with col2:
-        st.image("Images/Preventions-of-Diabetes.png", use_column_width=True)
+        st.image("DIABETESPREDICTOR/Images/Complications-of-Diabetes.jpg", use_column_width=True)
 
 
      # Treatment heading
@@ -69,7 +69,7 @@ def app():
     col1, col2 = st.columns([3, 3])
     with col1:
         # Display treatment images
-        st.image("Images/Treatment-of-Diabetes.png",  use_column_width=True)
+        st.image("DIABETESPREDICTOR/Images/Complications-of-Diabetes.jpg",  use_column_width=True)
 
     with col2:
         # Display treatment information
@@ -103,7 +103,7 @@ def app():
             st.write(description)
     with col2:
             # Add images here
-        st.image("Images/Complications-of-Diabetes.jpg",  use_column_width=True)  # Placeholder for images, you can add image elements here using st.image()
+        st.image("DIABETESPREDICTOR/Images/Complications-of-Diabetes.jpg",  use_column_width=True)  # Placeholder for images, you can add image elements here using st.image()
     html_temp = """
         <div style="background-color:#0278ae;padding:5px">
         <h3 style="color:white;text-align:center;"><span style="float:right; font-style: italic;">PREVENTION IS BETTER THAN CURE...</span></h3>
