@@ -8,8 +8,8 @@ db_connection = sqlite3.connect('DIABETESPREDICTOR/diabetes.db')
 
 def predict_diabetes(age, gender, *symptoms):
     # Load the trained model and scaler
-    RF_classifier = joblib.load(open('Backend/diabetic_predictor.pkl','rb'))
-    sc = joblib.load(open('Backend/Standard_Scalar.pkl','rb'))
+    RF_classifier = joblib.load(open('DIABETESPREDICTOR/Backend/diabetic_predictor.pkl','rb'))
+    sc = joblib.load(open('DIABETESPREDICTOR/Backend/Standard_Scalar.pkl','rb'))
 
     # Transform input features and make prediction
     prediction = RF_classifier.predict(sc.transform(np.array([[age, gender, *symptoms]])))
