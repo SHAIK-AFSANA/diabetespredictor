@@ -119,7 +119,7 @@ def app():
                             st.session_state.user_logged_in = True
                             st.session_state.user_details = user_details
                             st.success("Account created successfully")
-                            st.switch_page("DIABETESPREDICTOR/pages/patient.py")
+                            st.switch_page("pages/patient.py")
                         else:
                             st.error(result)
                             cursor.close()
