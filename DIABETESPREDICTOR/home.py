@@ -10,7 +10,7 @@ def app():
     understanding the risk factors is crucial for early detection and management of diabetes.
     """)
     
-    st.image("DIABETESPREDICTOR/Images/Diabetes-type-2.jpg-Diabetes.jpg",use_column_width=True)
+    st.image("DIABETESPREDICTOR/Images/Diabetes-type-2.jpg",use_column_width=True)
     # Information about the "3 P's" of diabetes
     
     st.header("Symptoms of Diabetes")
