@@ -19,7 +19,7 @@ cursor = conn.cursor()
 def fetch_patient_data(patient_id):
     try:
         # Open connection and create cursor within a context manager
-        with sqlite3.connect('diabetes.db') as conn:
+        with sqlite3.connect('DIABETESPREDICTOR/diabetes.db') as conn:
             cursor = conn.cursor()
             
             # Define SQL query to fetch patient data
