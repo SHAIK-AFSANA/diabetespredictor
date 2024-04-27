@@ -1,11 +1,11 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-import pages.patient_reports
-import pages.patient_health
-import pages.prevention  # Adjusted import statement
-
+from pages import patient_reports
+from pages import prevention  # Adjusted import statement
+from pages import patient_health
 st.set_page_config(initial_sidebar_state="collapsed", layout="wide")
 st.markdown("<style> ul {display: none;} </style>", unsafe_allow_html=True)
+
 
 def runpatient():
     app = option_menu('WELCOME',
@@ -23,11 +23,10 @@ def runpatient():
                       })
 
     if app == "MY HEALTH":
-        pages.patient_health.patient_page()
+        patient_health.patient_page()
     elif app == 'MY REPORTS':
-        pages.patient_reports.app()
+        patient_reports.app()
     elif app == 'MORE DETAILS':
-        pages.prevention.app()
+        prevention.app()
 
 runpatient()
-
