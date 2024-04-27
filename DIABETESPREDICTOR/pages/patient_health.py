@@ -4,7 +4,7 @@ import numpy as np
 import sqlite3
 
 # Connect to SQLite database
-db_connection = sqlite3.connect('diabetes.db')
+db_connection = sqlite3.connect('DIABETESPREDICTOR/diabetes.db')
 
 def predict_diabetes(age, gender, *symptoms):
     # Load the trained model and scaler
