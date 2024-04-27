@@ -9,3 +9,4 @@ seaborn==0.13.2
 scikit-learn
 plotly==5.20.0
 imbalanced-learn==0.12.2
+streamlit-extras
