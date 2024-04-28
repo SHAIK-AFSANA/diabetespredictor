@@ -1,4 +1,6 @@
 import streamlit as st
+import os
+from PIL import Image
 
 def app():
     if "user_logged_in" not in st.session_state or not st.session_state.user_logged_in:
@@ -24,7 +26,9 @@ def app():
             st.write(description)
     # Display the image in the other column
     with col2:
-        st.image("DIABETESPREDICTOR/Images/Complications-of-Diabetes.jpg", use_column_width=True)
+        imagg = Image.open('DIABETESPREDICTOR/Images/Preventions-of-Diabetes.png')
+        st.image(imagg, width=None)
+        
 
 
      # Treatment heading
