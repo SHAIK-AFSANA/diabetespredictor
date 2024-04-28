@@ -72,8 +72,8 @@ def app():
     # Display treatment information in two columns
     col1, col2 = st.columns([3, 3])
     with col1:
-        # Display treatment images
-        st.image("DIABETESPREDICTOR/Images/Complications-of-Diabetes.jpg",  use_column_width=True)
+        imagg = Image.open('DIABETESPREDICTOR/Images/Treatment-of-Diabetes.png')
+        st.image(imagg, width=None)
 
     with col2:
         # Display treatment information
