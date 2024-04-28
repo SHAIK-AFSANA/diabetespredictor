@@ -19,7 +19,7 @@ from datetime import datetime
 def save_patient_data(patient_id, age, gender, symptoms, prediction):
     try:
         # Open connection and create cursor within a context manager
-        with sqlite3.connect('DIABETESPREDICTOR/diabetesgit.db') as conn:
+        with sqlite3.connect('diabetes.db') as conn:
             cursor = conn.cursor()
             
             # Convert boolean values to "Yes" or "No"
