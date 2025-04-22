@@ -5,14 +5,14 @@ Diabetes, a chronic and life-threatening disease, presents challenges in timely 
 ## Usage
 1. First download the zip file nad extract the file then follow below instructions according to your requirement.
 2. TO DEPLOY THE APP USING STREAMLIT AND GITHUB
-   * Go to 'TO DEPLOY' folder
-   * Directly upload the folder 'diabetespredictor-main' to Github
+   * Go to `TO DEPLOY` folder
+   * Directly upload the folder `diabetespredictor-main` to Github
    * Create a new app in Streamlit Community Cloud
    * Run the app
 3. IF YOU WANT TO RUN THE APP ON LOCAL HOST
-   * Go to 'PROJECT' folder
-   * Open the folder 'DIABETESPREDICTOR' in vscode
-   * Run mainpage.py file
+   * Go to `PROJECT` folder
+   * Open the folder `DIABETESPREDICTOR` in vscode
+   * Run `mainpage.py` file
 ## Results
 ### Prediction Page
 ![PREDICTIONPAGE](https://github.com/user-attachments/assets/ebc91e18-a946-4b47-92a9-29a3ec960b20)
