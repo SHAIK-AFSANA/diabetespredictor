@@ -66,10 +66,8 @@ def app():
         <h4 style="color:white;text-align:center;">TEAM MEMBERS</h4>
     </div><br>
     <div style="color: blue; font-size: larger; text-align: center;">
-        SHAIK AFSANA  20731A3102<br><br>
-        ANNAM PAVANI  20731A3105<br><br>
-        EDICHERLA NANI  20731A3115<br><br>
-        UDAYAGIRI UDAY  20731A3152
+        SHAIK AFSANA  20731A3102<br>
+        SHAIK AFTAB AHMED 2473A39116
     </div>
     """
 
